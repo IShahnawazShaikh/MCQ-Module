@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context=".MainActivity">
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layoutmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:id="@+id/LayoutQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TextQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="shahnawaz shaikh"/>
+
+            <ImageView
+                android:id="@+id/ImgQ"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LayoutOp1"
+            android:layout_below="@+id/LayoutQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/layout"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/IconA"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/a"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/TextOp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shahnawaz shaikh"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:visibility="gone"
+
+                    />
+                <ImageView
+                    android:id="@+id/ImgOp1"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LayoutOp2"
+            android:layout_below="@+id/LayoutOp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/layout"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/IconB"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/b"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/TextOp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shahnawaz shaikh"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:visibility="gone"
+
+                    />
+                <ImageView
+                    android:id="@+id/ImgOp2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LayoutOp3"
+            android:layout_below="@+id/LayoutOp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/layout"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/IconC"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/c"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/TextOp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shahnawaz shaikh"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:visibility="gone"
+
+                    />
+                <ImageView
+                    android:id="@+id/ImgOp3"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/LayoutOp4"
+            android:layout_below="@+id/LayoutOp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/layout"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/IconD"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/d"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/TextOp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shahnawaz shaikh"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:visibility="gone"
+
+                    />
+                <ImageView
+                    android:id="@+id/ImgOp4"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="150dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+   </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
